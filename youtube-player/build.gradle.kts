@@ -49,8 +49,8 @@ afterEvaluate {
         publications {
             register<MavenPublication>("release") {
                 groupId = "com.github.techitdevs"
-                artifactId = "youtube-player"
-                version = "1.0.2"
+                artifactId = "com.service.techityoutube"
+                version = "1.0.0"
 
                 from(components["release"])
             }

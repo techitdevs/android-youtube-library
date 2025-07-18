@@ -8,10 +8,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.service.techityoutube.player.YouTubePlayer
-import com.service.techityoutube.player.listeners.AbstractYouTubePlayerListener
-import com.service.techityoutube.player.options.IFramePlayerOptions
-import com.service.techityoutube.player.views.YouTubePlayerView
+import com.service.techityoutube.YouTubePlayer
+import com.service.techityoutube.listeners.AbstractYouTubePlayerListener
+import com.service.techityoutube.options.IFramePlayerOptions
+import com.service.techityoutube.views.YouTubePlayerView
 import com.service.techityoutube.sample.view.theme.TechITYouTubeSampleTheme
 
 class MainActivity : ComponentActivity() {
