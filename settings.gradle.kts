@@ -1,3 +1,5 @@
+include(":youtube-player")
+
 pluginManagement {
     repositories {
         google()
@@ -15,5 +17,3 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "TechIT YouTube Library"
-include(":youtube-player")
-include(":sample-app")

@@ -42,17 +42,6 @@ dependencies {
     // Core Android dependencies
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
-    
-    // WebView for YouTube player
-    implementation("androidx.webkit:webkit:1.9.0")
-    
-    // Lifecycle
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
-    
-    // Testing
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
 
 afterEvaluate {
@@ -68,7 +57,7 @@ afterEvaluate {
                 pom {
                     name.set("TechIT YouTube Player")
                     description.set("Android YouTube player library with Compose support")
-                    url.set("https://github.com/yourusername/techit-youtube-lib")
+                    url.set("https://github.com/techitdevs/android-youtube-library")
                     
                     licenses {
                         license {
@@ -81,7 +70,6 @@ afterEvaluate {
                         developer {
                             id.set("techit")
                             name.set("TechIT")
-                            email.set("developer@techit.com")
                         }
                     }
                 }
