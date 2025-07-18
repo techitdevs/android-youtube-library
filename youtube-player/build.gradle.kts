@@ -48,31 +48,11 @@ afterEvaluate {
     publishing {
         publications {
             register<MavenPublication>("release") {
-                groupId = project.findProperty("GROUP_ID") as String? ?: "com.service.techityoutube"
+                groupId = "com.github.techitdevs"
                 artifactId = "youtube-player"
-                version = project.findProperty("LIBRARY_VERSION") as String? ?: "1.0.0"
+                version = "1.0.2"
 
                 from(components["release"])
-                
-                pom {
-                    name.set("TechIT YouTube Player")
-                    description.set("Android YouTube player library with Compose support")
-                    url.set("https://github.com/techitdevs/android-youtube-library")
-                    
-                    licenses {
-                        license {
-                            name.set("The Apache License, Version 2.0")
-                            url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
-                        }
-                    }
-                    
-                    developers {
-                        developer {
-                            id.set("techit")
-                            name.set("TechIT")
-                        }
-                    }
-                }
             }
         }
     }
